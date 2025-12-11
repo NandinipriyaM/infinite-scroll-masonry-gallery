@@ -64,6 +64,7 @@ Optimized layout for mobile, tablet, and desktop screens.
 
 ### 1. Clone the Repository
 git clone https://github.com/NandinipriyaM/infinite-scroll-masonry-gallery
+
 cd infinite-scroll-masonry-gallery
 ### 2️⃣ Install Dependencies
 npm install
