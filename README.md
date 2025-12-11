@@ -59,36 +59,17 @@ Optimized layout for mobile, tablet, and desktop screens.
 | State | React Hooks & localStorage |
 | Deployment | Vercel |
 
----
 
-## Project Structure
 
-public/
-├── gallery_logo.png
-├── index.html
-└── manifest.json
-
-src/
-├── components/
-│ └── Gallery/
-│ ├── Gallery.js
-│ └── gallery.css
-├── services/
-│ └── unsplash.js
-├── App.js
-├── App.css
-├── index.js
-├── index.css
-└── reportWebVitals.js
 ## Setup Instructions
 
 ### 1. Clone the Repository
 git clone https://github.com/NandinipriyaM/infinite-scroll-masonry-gallery
 cd infinite-scroll-masonry-gallery
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 npm install
 
-3️⃣ Unsplash API Setup
+### 3️⃣ Unsplash API Setup
 
 Create a .env.local file in the root of the project:
 
@@ -148,5 +129,6 @@ Create a /screenshots folder and include:
 desktop.png
 
 tablet.png
+![alt text](image.png)
 
 mobile.png
