@@ -1,0 +1,75 @@
+/* Masonry grid container */
+.my-masonry-grid {
+  display: flex;
+  margin-left: -15px; /* gutter size */
+  width: auto;
+}
+
+/* Masonry columns */
+.my-masonry-grid_column {
+  padding-left: 15px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Gap between items */
+.my-masonry-grid_column > img {
+  margin-bottom: 15px;
+}
+
+/* --------------------------------------------------
+   OVERLAY (BASE STYLE)
+---------------------------------------------------*/
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: 8px;
+  color: white;
+  font-size: 14px;
+
+  background: rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+/* --------------------------------------------------
+   HOVER → SHOW OVERLAY
+---------------------------------------------------*/
+.my-masonry-grid_column > div:hover .overlay {
+  opacity: 1;
+}
+
+/* Favorite icon spacing */
+.my-masonry-grid_column > div svg {
+  margin-left: 5px;
+}
+
+/* Skeleton loading animation */
+@keyframes pulse {
+  0% { background-color: #eee; }
+  50% { background-color: #ddd; }
+  100% { background-color: #eee; }
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #e6e6e6;
+  border-radius: 12px;
+  padding: 10px 15px;
+  width: 60%;
+  margin: auto;
+}
+
+.search-input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
