@@ -8,8 +8,7 @@ Features include infinite scrolling, masonry layout, search, filtering, favorite
 ## Live Demo
 
 **Deployed URL:**  
-https://your-vercel-app-url.vercel.app  
-*(Replace with your actual live URL)*
+https://infinite-scroll-masonry-gallery-h4v.vercel.app/
 
 ---
 
@@ -120,15 +119,14 @@ Modal view & download
 Responsive behavior
 
 Video Link:
-https://your-video-link.com
+https://youtu.be/PZ01ZONL12A
+## Screenshots
 
-### Screenshots
+### Desktop View
+![Desktop Screenshot](screenshots/desktop.png)
 
-Create a /screenshots folder and include:
+### Tablet View
+![Tablet Screenshot](screenshots/tablet.png)
 
-desktop.png
-
-tablet.png
-![alt text](image.png)
-
-mobile.png
+### Mobile View
+![Mobile Screenshot](screenshots/mobile.png)
